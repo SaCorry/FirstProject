@@ -1,0 +1,75 @@
+body{margin: 10px;padding: 10px;}
+
+form{
+background-color: rgb(62, 199, 192);
+width: 550px;
+padding: 15px;
+font-weight: bold;
+margin: auto;
+
+    
+}
+
+input{
+    padding-left: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+border:none;
+height: 30px;
+font-style: italic;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+input#title{
+    width: 99%;
+       display: flex;
+    flex-direction: column;
+    
+}
+div.info{display: flex; 
+flex-wrap: nowrap;}
+
+input#gender{
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+
+input#info1, #info3{
+    width:34%;
+}
+input#info2{width:29%;}
+
+
+div.code{display: flex;
+flex-wrap: nowrap;}
+
+input#code1{
+width: 48%;
+
+   }
+
+input#code2{
+width: 50%;
+}
+
+div#btn{
+    margin-top: 20px;
+    padding-top: 7px;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    border: none;   
+    
+    }
+
+
+
+a#btn{
+        color: white;
+        background-color: green;
+        border: none;
+        text-decoration: none;
+    }
